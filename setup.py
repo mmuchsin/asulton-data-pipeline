@@ -5,6 +5,7 @@ from typing import List
 PROJECT_NAME = "asulton-data-pipeline"
 VERSION = "1.0"
 AUTHOR = "M Muchsin"
+LICENSE = "LICENSE"
 DESRCIPTION = "This is a data pipeline for asulton project"
 REQUIREMENT_FILE_NAME = "requirements.txt"
 EDITABLE = "-e ."
@@ -31,6 +32,7 @@ setup(
     name=PROJECT_NAME,
     version=VERSION,
     author=AUTHOR,
+    license_files=LICENSE,
     description=DESRCIPTION,
     packages=find_packages(),
     install_requires=get_requirements_list(),
